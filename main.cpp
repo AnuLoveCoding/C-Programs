@@ -10,6 +10,7 @@ int main() {
   char current[1000];
   char largest[1000];
   int len = 0;
+
   
   for(int i = 0; i < n; i++){
     cin.getline(current, 1000, '\n');
