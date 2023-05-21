@@ -15,6 +15,7 @@ int main() {
     cin.getline(current, 1000, '\n');
     int currentlength = strlen(current);
     if(currentlength > len){
+      
        len = currentlength;
       strcpy(largest, current);
     }
